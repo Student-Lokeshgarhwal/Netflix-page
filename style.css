@@ -1,0 +1,174 @@
+body {
+    background: url("./images/back-img.jpg");
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo img {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-section {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin: 2px 0;
+}
+
+.side-part {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+select {
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+option {
+    background: black;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.main-data {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card {
+    background-color: rgb(37, 36, 36);
+    color: white;
+    margin: 2px;
+}
+
+.card-header {
+    /* border: 1px solid black; */
+    border-bottom: 2px solid black;
+    background-color: rgb(12, 12, 12);
+}
+
+.card-header:hover {
+    background-color: rgb(26, 26, 26);
+}
+
+.card-header button {
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* border: 2px solid rebeccapurple; */
+    margin: 10px 0;
+}
+
+.main-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    /* border: 2px solid green; */
+    margin: 20px;
+    justify-content: center;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid rgb(0, 0, 0); */
+    width: 45%;
+    /* flex-wrap: wrap; */
+}
+
+.main-title h1 {
+    font-weight: bolder;
+    font-size: 35px;
+    /* border: 1px solid yellow; */
+}
+
+
+.main-images img {
+    /* margin: 1px; */
+    margin-bottom: 7px;
+    border: 5px solid transparent;
+    cursor: pointer;
+}
+
+.main-images img:hover {
+    border: 2px solid transparent;
+
+}
+
+#text1 {
+    font-size: 18px;
+}
+
+#text2 {
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    color: white;
+
+}
+
+.input-section input {
+    background: transparent;
+    color: white;
+    padding-left: 5px;
+    border-radius: 2px;
+    border: 0.5px solid white;
+}
+
+.input-section button {
+    border-radius: 2px;
+}
+
+#text-tranding,
+#text-faq {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.footer-section {
+    display: flex;
+    gap: 35px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.footer-section {
+    font-weight: 100;
+    font-size: 12px;
+
+}
+
+.footer-section ul {
+    list-style: none;
+}
