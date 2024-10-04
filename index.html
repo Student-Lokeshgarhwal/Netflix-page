@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+    <!-- bootstrap-icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- css -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -21,15 +23,15 @@
             <div class="header-section">
                 <div id="logo">
                     <img src="./images/logo.webp" width="110px" height="45px">
-                    <!-- <h1>NETFLIX</h1> -->
                 </div>
                 <div class="side-part">
                     <div class="dropdown">
                         <select>
+                            <i class="bi bi-translate"></i>
                             <option value="English">English</option>
                             <option value="Hindi">Hindi</option>
                             <option value="German">German</option>
-                            <option value="Spanice">Spanice</option>
+                            <option value="Spanice">Spanish</option>
                         </select>
                     </div>
                     <div class="btn btn-sm btn-danger">Signin</div>
@@ -37,6 +39,7 @@
             </div>
         </header>
 
+        <!-- main-section -->
         <main>
             <div class="main-section p-1">
                 <div class="main-head">
@@ -46,8 +49,13 @@
                         <p id="text2">Ready to Watch? Enter your email to create or restart your membership.</p>
                     </div>
                     <div class="input-section">
-                        <input type="email" placeholder="Enter your email">
-                        <button class="btn btn-sm btn-danger">Get Started</button>
+                        <div class="input">
+                            <input type="email" placeholder="Enter your email">
+                        </div>
+                        <div class="button">
+                            <button class="btn btn-sm btn-danger">Get Started <i
+                                    class="bi bi-chevron-right"></i></button>
+                        </div>
                     </div>
                 </div>
                 <div class="main-data">
@@ -68,16 +76,15 @@
                             <img src="./images/img-1.jpeg" class="rounded" width="100%" height="150px">
                         </div>
                         <div class="col-md-3 col-sm-6 col-6">
-                            <img src="./images/img-9.jpeg" class="rounded" width="100%" height="150px">
+                            <img src="./images/img-2.jpeg" class="rounded" width="100%" height="150px">
                         </div>
                         <div class="col-md-3 col-sm-6 col-6">
-                            <img src="./images/img-10.jpeg" class="rounded" width="100%" height="150px">
+                            <img src="./images/img-3.jpeg" class="rounded" width="100%" height="150px">
                         </div>
                         <div class="col-md-3 col-sm-6 col-6">
-                            <img src="./images/img-8.jpeg" class="rounded" width="100%" height="150px">
+                            <img src="./images/img-4.jpeg" class="rounded" width="100%" height="150px">
                         </div>
                     </div>
-
 
                 </div>
             </div>
@@ -91,6 +98,7 @@
                         <div class="card-header">
                             <button class="btn btn-link text-white w-100" data-toggle="collapse"
                                 data-target="#collapseone">What is Netflix?</button>
+                            <i class="bi bi-chevron-down" data-toggle="collapse" data-target="#collapseone"></i>
                         </div>
                         <div class="collapse" id="collapseone" data-parent="#ex-accordion">
                             <div class="card-body">
@@ -108,6 +116,7 @@
                         <div class="card-header">
                             <button class="btn btn-link text-white w-100 btn-block text-left collapsed"
                                 data-toggle="collapse" data-target="#collapsetwo">Where much does Netflix cost?</button>
+                            <i class="bi bi-chevron-down" data-toggle="collapse" data-target="#collapsetwo"></i>
                         </div>
                         <div class="collapse " id="collapsetwo" data-parent="#ex-accordion">
                             <div class="card-body">
@@ -127,6 +136,7 @@
                             <button class="btn btn-link text-white w-100 btn-block text-left  collapsed"
                                 data-toggle="collapse" data-target="#collapsethree">What can I watch on
                                 Netflix?</button>
+                            <i class="bi bi-chevron-down" data-toggle="collapse" data-target="#collapsethree"></i>
                         </div>
                         <div class="collapse " id="collapsethree" data-parent="#ex-accordion">
                             <div class="card-body">
@@ -143,6 +153,7 @@
 
     </div>
 
+    <!-- footer-section -->
     <footer>
         <div class="container">
             <div class="footer-section">
@@ -151,6 +162,7 @@
                     <ul class="list-unstyled">
                         <li>Careers</li>
                         <li>Policy</li>
+                        <li>jobs</li>
                         <li>Terms & Conditions</li>
                     </ul>
                 </div>
@@ -158,6 +170,7 @@
                     <p>Help</p>
                     <ul class="list-unstyled">
                         <li>Help Centr</li>
+                        <li>accounts</li>
                         <li>Contact Us</li>
                     </ul>
                 </div>
